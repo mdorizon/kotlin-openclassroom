@@ -70,6 +70,17 @@ fun main() {
     // Sortie: Hello Maxou
     //Cela peut servir pour afficher des messages de débogages directement dans la console
 
+
+    //création d'une constante en JAVA: 
+    //public static final String SERVER_URL = "https://vanezia.fr/";
+
+    //en Kotlin le mot clé static n'existe plus !! 
+    //équivalence sous Kotlin:
+    
+    //const val SERVER_URL: String = "https://vanezia.fr/"
+    //le mot clé const suivi de val permet de définir une constante dont la valeur sera connue au moment de la compilation. celle-ci ne pourra pas être modifiée lors de l'exécution de votre programme !
+    
+
     
     
     
