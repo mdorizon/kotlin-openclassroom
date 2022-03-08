@@ -34,14 +34,33 @@ fun main() {
 
     // la cerise sur le gateau: le ; n'est pas nécessaire 
 
-    val message: String
+    //val message: String
     
-    if (isUserHappy()){
-        message = "cool tu est heureux ! :D"
-    } else {
-        message = "qu'est-ce qui ne va pas ? :("
-    }
+    //if (isUserHappy()){
+    //    message = "cool tu est heureux ! :D"
+    //} else {
+    //    message = "qu'est-ce qui ne va pas ? :("
+    //}
 
+
+    // en Kotlin une variable peut être null grace a l'indice ? ici dans String ?
+    var message: String? = "Ce message peut etre null !"
+    //message.toUpperCase()
+    //la variable peut possiblement être null donc le toUpperCase ne fonctionne pas 
+
+    //En indiquant une variable comme pouvant "possiblement" contenir une valeur nulle, vous indiquez aux autres développeurs que cette variable pourra sûrement contenir une valeur nulle : ils devront donc absolument prendre leurs précautions en la manipulant.
+
+    //A la place nous pouvons faire:
+
+    //message?.toUpperCase()
+
+    //ou encore
+
+    //if (message != null) message.toUpperCase()
+
+    println(message)
+
+    
     
     
 }
