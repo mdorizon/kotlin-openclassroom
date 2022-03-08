@@ -60,6 +60,16 @@ fun main() {
 
     println(message)
 
+
+
+    //il est possible de faire référence à une variable locale grace au symbole $ exemple:
+
+    val name4 = "Maxou"
+    println("Hello $name4")
+
+    // Sortie: Hello Maxou
+    //Cela peut servir pour afficher des messages de débogages directement dans la console
+
     
     
     
