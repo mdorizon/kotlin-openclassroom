@@ -34,7 +34,13 @@ fun main() {
 
     // la cerise sur le gateau: le ; n'est pas nécessaire 
 
+    val message: String
     
+    if (isUserHappy()){
+        message = "cool tu est heureux ! :D"
+    } else {
+        message = "qu'est-ce qui ne va pas ? :("
+    }
 
     
     
