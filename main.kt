@@ -79,7 +79,23 @@ fun main() {
     
     //const val SERVER_URL: String = "https://vanezia.fr/"
     //le mot clé const suivi de val permet de définir une constante dont la valeur sera connue au moment de la compilation. celle-ci ne pourra pas être modifiée lors de l'exécution de votre programme !
-    
+
+
+
+
+
+    //si je ne veux pas initialiser la var immédiatement après sa déclaration, mais le faire un peu plus tard, si l'on écrit la ligne suivante kotlin refuse de compiler:
+
+    //var username: String
+
+    //nous allons tout simplement utiliser le mot-clé lateinit 
+
+    //private lateinit var submitButton: Button
+
+    //override fun onCreate(savedInstanceState: Bundle?) {
+    //    super.onCreate(savedInstanceState)
+    //    submitButton = this.getSubmitButton()
+    //}
 
     
     
