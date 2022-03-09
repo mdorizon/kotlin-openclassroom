@@ -96,8 +96,17 @@ fun main() {
     //    super.onCreate(savedInstanceState)
     //    submitButton = this.getSubmitButton()
     //}
-
-    
-    
-    
 }
+
+//bon passons à autre chose et décortiquons une fonction toute simple:
+
+
+//fun main(args: Array<String>) {
+//    println("Hello, world!")
+//}
+
+//le mot clé fun suivi de son nom permet de définir une fonction et de la nommer
+
+//le type du paramètre ( Array<String> ) est indiqué après son nom args / les : indiquent la déclaration d'un type 
+
+//nous affichons du texte dans la console en utilisant ( println() )  c'est léquivalent de System.out.println en Java la encore pas besoin de point virgule 
