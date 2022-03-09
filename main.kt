@@ -110,3 +110,12 @@ fun main() {
 //le type du paramètre ( Array<String> ) est indiqué après son nom args / les : indiquent la déclaration d'un type 
 
 //nous affichons du texte dans la console en utilisant ( println() )  c'est léquivalent de System.out.println en Java la encore pas besoin de point virgule 
+
+
+
+//ajout d'un peu de complexité
+
+private fun minOf(a: Int, b: Int): Int {
+    return if (a < b) a else b
+}
+//les paramètres de la fonction sont séparés par une virgulle, comme en Java en revanche pour return une valeur de type Int nous allons utiliser les :  à la fin de la fonction
