@@ -119,3 +119,29 @@ private fun minOf(a: Int, b: Int): Int {
     return if (a < b) a else b
 }
 //les paramètres de la fonction sont séparés par une virgulle, comme en Java en revanche pour return une valeur de type Int nous allons utiliser les :  à la fin de la fonction
+
+
+//en kotlin comme en java if est une expression et non pas une instruction
+
+//différence expression // instruction:
+
+//expression est une combinaison d'un ou plusieurs valeurs, constantes, variables, opérateurs et fonctions exemple
+
+//une expression est toute partie du code qui peut retourner une valeur Ainsi, 1+1 est une expression, maxOf(5, 7) est une expression, etc.
+
+
+//une instruction a l'inverse est la plus petite partie d'un élément indépendant de votre code qui attend qu'une action soit effectuée 
+
+//une instruction est un bloc de code qui ne retourne aucune valeur. par exemple, var username = "Maxou"
+
+//la plupart des structures de contrôles sont considérés comme des expressions par exemple println("hello world") retourne en réalité une valeur de type Unit, le type par défaut créé par kotlin. il correspond au void en Java
+
+//nous pouvons donc faire cela:
+
+fun test(args: Array<String>) {
+    println("Hello, world!")
+}
+
+var hello: Unit = test(arrayOf(""))
+
+
