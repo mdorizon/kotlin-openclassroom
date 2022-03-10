@@ -145,3 +145,29 @@ fun test(args: Array<String>) {
 var hello: Unit = test(arrayOf(""))
 
 
+//comme if est considéré comme une expression nous pouvons faire cela avec minOf()
+
+//private fun minOf(a: Int, b: Int): Int = if (a < b) a else b
+
+//dont on peut encore optimiser la lisibilité grâce à l'inférence type: 
+
+//private fun minOf(a: Int, b: Int) = if (a < b) a else b
+
+
+//nous venons de créer une fonction qui n'a pas de corp c'est à dire qu'elle n'a pas de { }  mais une expression à la place, mais cette syntaxe ne se limite pas seulement aux fonctions:
+
+fun sayHello() = println("Hello !")
+
+//équivaut à:
+
+//fun sayHello(): Unit = println("Hello !")
+
+//équivaut à:
+
+//fun sayHello(): Unit { println("Hello !") }
+
+//le but de kotlin étant de rendre le code le plus lisible possible afin d'améliorer la productivité
+
+
+//si la fonction possède un corps et que l'on souhaite retourner une valeur l'inférence de type ne fonctionneras pas dans ce csa-là. kotlin a fait ce choix afin d'optimiser les performances de son compilateur.
+
