@@ -171,3 +171,22 @@ fun sayHello() = println("Hello !")
 
 //si la fonction possède un corps et que l'on souhaite retourner une valeur l'inférence de type ne fonctionneras pas dans ce csa-là. kotlin a fait ce choix afin d'optimiser les performances de son compilateur.
 
+
+
+//exercice exemple:
+
+// Corrigez cette fonction
+//fun sayMyName(name: String) { println(name) }
+
+// Simplifiez cette fonction
+//fun sayHello() =  "Hello"
+
+// Simplifiez cette fonction
+//fun isStudent(isLearning: Boolean) = if (isLearning) true else false
+
+
+//fun main(args: Array<String>) {
+//    println( sayHello() )
+//    sayMyName("Name") 
+//    println( "Is Student : ${isStudent(true)} " ) 
+//}
