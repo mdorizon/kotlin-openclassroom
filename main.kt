@@ -96,6 +96,7 @@ fun main() {
     //    super.onCreate(savedInstanceState)
     //    submitButton = this.getSubmitButton()
     //}
+
 }
 
 //bon passons à autre chose et décortiquons une fonction toute simple:
@@ -190,3 +191,68 @@ fun sayHello() = println("Hello !")
 //    sayMyName("Name") 
 //    println( "Is Student : ${isStudent(true)} " ) 
 //}
+
+
+
+
+
+//public class User {
+    
+    // PROPERTIES
+//    private String email;
+//    private String password;
+//    private int age;
+    
+    // CONSTRUCTOR
+//    public User(String email, String password, int age){
+//        this.email = email;
+//        this.password = password;
+//        this.age = age;
+//    }
+    
+    // GETTERS
+//    public String getEmail() { return email; }
+//    public String getPassword() { return password; }
+//    public int getAge() { return age; }
+    
+    // SETTERS
+//    public void setEmail(String email) { this.email = email; } 
+//    public void setPassword(String password) { this.password = password; }
+//    public void setAge(int age) { this.age = age; }
+    
+//}
+
+//voici une classe user en java
+
+
+//class User(var email: String, var password: String, var age: Int)
+
+//et voici la même classe en kotlin
+
+//il y a le mot clé class pour déclarer la classe suivi du nom de celle-ci: User , de plus les propriétés sont directement renseignées dans des parenthèses, ces parenthèses définissent le constructeur de la classe
+
+//mais ou est le public ??
+
+//en kotlin la visibilité par défaut de n'importe quel élement est public, on retrouve en kotlin 4 principaux modificateurs de visibilité pour les membres que voici:
+
+
+
+//private  : Un membre déclaré comme  private  sera visible uniquement dans la classe où il est déclaré.
+
+//protected  : Un membre déclaré comme  protected  sera visible uniquement dans la classe où il est déclaré ET dans ses sous-classes (via l’héritage).
+
+//internal : Un membre déclaré comme  internal  sera visible par tous ceux du même module. Un module est un ensemble de fichiers compilés ensemble (comme une librairie Gradle ou Maven, par exemple).
+
+//public  : Un membre déclaré comme  public  sera visible partout et par tout le monde.
+
+
+//class User(var email: String, var password: String, var age: Int)
+
+//val user = User("Hello@gmail.com", "azerty", 27)
+//println(user.email) // Getter
+//user.email = "new_email@gmail.com" // Setter
+
+
+//si je ne veux pas qu'une valeur soit modifiée j'utilise val à la place de var voici la nouvelle classe:
+
+//class User(val email: String, var password: String, var age: Int)
